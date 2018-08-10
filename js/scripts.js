@@ -123,10 +123,9 @@ function addC(c1, c2, c3, c4, c5, c6) {
 
 //Front-end
 $(document).ready(function(){
-  $("button").click(function(event){
+  $("#quiz button").click(function(event){
     event.preventDefault();
-    // $(".results div").hide();
-    $("#questionaire").hide();
+    $("#quiz").hide();
 
     var q1 = $("input:radio[name=Q1]:checked").val();
     var q2 = $("input:radio[name=Q2]:checked").val();
@@ -143,29 +142,26 @@ $(document).ready(function(){
       if (totalA > totalB && totalA > totalC) {
         $("#ruby-rails").show();
       } else if (totalA === totalB && totalA > totalC) {
-        $("#tie").show();
-        $("#ruby-rails").show();
-        $("#css-react").show();
+        $("#tie, #ruby-rails, #css-react").show();
       } else if (totalA > totalB && totalA === totalC) {
-        $("#tie").show();
-        $("#ruby-rails").show();
-        $("#c-net").show();
+        $("#tie, #ruby-rails, #c-net").show();
       } else {
-        $("#tie").show();
-        $("#ruby-rails").show();
-        $("#css-react").show();
-        $("#c-net").show();
+        $("#tie, #ruby-rails, #css-react, #c-net").show();
       }
     } else if (totalB >= totalA && totalB >= totalC) {
       if (totalB > totalA && totalB > totalC) {
         $("#css-react").show();
       } else {
-        $("#tie").show();
-        $("#css-react").show();
-        $("#c-net").show();
+        $("#tie, #css-react, #c-net").show();
       }
     } else {
       $("#c-net").show();
     };
+    $("#again").show();
   });
+
+  $(".results button").click(function(){
+    location.reload();
+  });
+  
 });
