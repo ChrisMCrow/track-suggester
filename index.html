@@ -11,32 +11,38 @@
   <body>
     <div class="container">
       <h1 class="jumbotron">Which Track is Right for Me?</h1>
-      <p>Selecting the track that's right for you can be a difficult question, especially before you have a basic understanding of programming. This questionaire has been created to help you select a track based on the questions you answer.
       <form id="quiz">
+        <p>Selecting the track that's right for you can be a difficult question, especially before you have a basic understanding of programming. This questionaire has been created to help you select a track based on the questions you answer.
         <div class="row">
 
             <!--Question 1-->
           <div class="col-md-6">
             <div class="form-group">
               <label for="Q1">
-                Question for you
+                Where type of company would you like to work for?
               </label>
               <div class="radio">
                 <label>
-                  <input type="radio" name="Q1" value="a" checked>
-                  Option A
+                  <input type="radio" name="Q1" value="c" checked>
+                  A large, well-established tech company
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Q1" value="a">
+                  A startup company
                 </label>
               </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="Q1" value="b">
-                  Option B
+                  A self-employed contractor
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="Q1" value="c">
-                  Option C
+                  <input type="radio" name="Q1" value="d">
+                  Not sure
                 </label>
               </div>
             </div>
@@ -44,24 +50,30 @@
             <!--Question 2-->
             <div class="form-group">
               <label for="Q2">
-                Question for you
+                What type of web development are you most interested in?
               </label>
               <div class="radio">
                 <label>
-                  <input type="radio" name="Q2" value="a" checked>
-                  Option A
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="Q2" value="b">
-                  Option B
+                  <input type="radio" name="Q2" value="b" checked>
+                  Front-End
                 </label>
               </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="Q2" value="c">
-                  Option C
+                  Back-End
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Q2" value="a">
+                  Full-Stack
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Q2" value="d">
+                  Not sure
                 </label>
               </div>
             </div>
@@ -69,24 +81,24 @@
             <!--Question 3-->
             <div class="form-group">
               <label for="Q3">
-                Question for you
+                Which statement do you most identify with?
               </label>
               <div class="radio">
                 <label>
                   <input type="radio" name="Q3" value="a" checked>
-                  Option A
+                  I enjoy building something from beginning to end and being involved in each step.
                 </label>
               </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="Q3" value="b">
-                  Option B
+                  I enjoy design, look, and creating an exciting experience for a potential user.
                 </label>
               </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="Q3" value="c">
-                  Option C
+                  I enjoy logic, problem solving, and making things function.
                 </label>
               </div>
             </div>
@@ -96,24 +108,24 @@
           <div class="col-md-6">
             <div class="form-group">
               <label for="Q4">
-                Question for you
+                Are you more of a right-brained or left-brained person?
               </label>
               <div class="radio">
                 <label>
-                  <input type="radio" name="Q4" value="a" checked>
-                  Option A
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="Q4" value="b">
-                  Option B
+                  <input type="radio" name="Q4" value="b" checked>
+                  Right-brained: I prefer imagination & creativity.
                 </label>
               </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="Q4" value="c">
-                  Option C
+                  Left-brained: I prefer logic & analytical thinking.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Q4" value="a">
+                  I don't prefer one over the other.
                 </label>
               </div>
             </div>
@@ -121,24 +133,24 @@
             <!--Question 5-->
             <div class="form-group">
               <label for="Q5">
-                Question for you
+                What type of software are you most interested in building?
               </label>
               <div class="radio">
                 <label>
                   <input type="radio" name="Q5" value="a" checked>
-                  Option A
+                  Interactive Web Applications
                 </label>
               </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="Q5" value="b">
-                  Option B
+                  Smart Phone & Tablet Applications
                 </label>
               </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="Q5" value="c">
-                  Option C
+                  Business & Database Applications
                 </label>
               </div>
             </div>
@@ -146,24 +158,24 @@
             <!--Question 6-->
             <div class="form-group">
               <label for="Q6">
-                Question for you
+                In general, I'm interested in working with technology that is:
               </label>
               <div class="radio">
                 <label>
-                  <input type="radio" name="Q6" value="a" checked>
-                  Option A
+                  <input type="radio" name="Q6" value="c" checked>
+                  Tried & True
                 </label>
               </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="Q6" value="b">
-                  Option B
+                  New & Fresh
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="Q6" value="c">
-                  Option C
+                  <input type="radio" name="Q6" value="a">
+                  Simple & Elegant
                 </label>
               </div>
             </div>
@@ -175,21 +187,28 @@
       <!--Results-->
       <div class="results">
         <div class="track" id="tie">
-          <h2>You scored a tie!</h2>
+          <h2>Your results indicated there might be more than one track that fits your preferences.</h2>
         </div>
         <div class="track" id="ruby-rails">
-          <h2>Ruby/Rails</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h2>The best track for you might be Ruby/Rails</h2>
+          <p>Ruby is a programming language focused on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. The Ruby programming language is most commonly used with the Ruby on Rails framework.</p>
+          <p>Ruby and Rails are typically used by younger companies and startups, especially for building interactive web applications. Companies using Ruby and Rails who have hired Epicodus graduates include New Relic, LivingSocial, and SpendWell.</p>
         </div>
 
         <div class="track" id="css-react">
-          <h2>CSS/React</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h2>The best track for you might be CSS/React</h2>
+          <h3>CSS</h3>
+          <p>CSS is the language for describing the presentation of Web pages, including colors, layout, fonts, and other stylistic choices. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, and printers. HTML — used for building the structure of the page — and CSS — used for the visual layout — are the two basic languages involved in the building of web pages and web applications.</p>
+          <h3>React</h3>
+          <p>React is a JavaScript library used to create dynamic, interactive user interfaces. It allows a site to quickly update many different elements at once, without reloading the page. Since its development at Facebook in 2011 it has exploded in popularity. In fact, a recent survey by the popular question-and-answer site Stack Overflow reported React's usage increased by over 300% in 2016 alone.</p>
+          <p>Examples of companies and products that use React include AirBnB, BBC, Ebay, Facebook, Instagram, Lyft, Netflix, New York Times, Reddit, Nike, Pinterest, Paypal, and many more.</p>
         </div>
 
         <div class="track" id="c-net">
-          <h2>C#/.NET</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h2>The best track for you might be C#/.NET</h2>
+          <p>The C# ("C sharp") programming language is most commonly used with the .NET framework. Students who are well-versed in C# programming can use it to create client applications, database applications, distributed components, and much more.</p>
+          <p>Students who learn C# programming and combine it with their knowledge of the .NET framework can target larger enterprises, government agencies, and companies serving enterprise and government clients for employment.</p>
+          <p>Companies using C# and .NET who have hired Epicodus graduates include Windsor and Incomm.</p>
         </div>
         <button id="again" class="btn btn-info">Take Again</button>
       </div>
