@@ -125,7 +125,7 @@ function addC(c1, c2, c3, c4, c5, c6) {
 $(document).ready(function(){
   $("#quiz button").click(function(event){
     event.preventDefault();
-    $("#quiz").hide();
+    $("#quiz, .title").hide();
 
     var q1 = $("input:radio[name=Q1]:checked").val();
     var q2 = $("input:radio[name=Q2]:checked").val();
@@ -163,5 +163,5 @@ $(document).ready(function(){
   $(".results button").click(function(){
     location.reload();
   });
-  
+
 });
