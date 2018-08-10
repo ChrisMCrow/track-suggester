@@ -12,7 +12,7 @@ _This is a website quiz designed to help prospective students of Epicodus decide
 
 * _Clone this repository_
 * _Open the index.html file in your browser_
-* _or visit [chrismcrow.github.io/track-suggester](chrismcrow.github.io/track-suggester)_
+* _or visit <http://chrismcrow.github.io/track-suggester>_
 
 
 ## Technologies Used
